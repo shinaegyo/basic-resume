@@ -1,0 +1,89 @@
+body {
+    height: 100vh;
+    /*background: linear-gradient(45deg, #ffafbd, #ffc3a0); */
+    /* background: linear-gradient(45deg, #eb3349, #f45c43); */
+     background: linear-gradient(90deg,#eacda3, #d6ae7b); 
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p, li {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.links {
+    width: fit-content;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:rgb(19, 47, 99);
+    padding: 3px 10px;
+    margin: 0.3em auto;
+    background: linear-gradient(#FF5F6D, #FFC371);
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3em;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.h1-contacts {
+    font-size: 6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 4px;
+    background-color:gold
+}
+
+.hobbies-body {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.h1-hobbies {
+    font-size: 3.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h2-hobbies::first-letter {
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:cornflowerblue
+}
+
+.p-hobbies::first-line {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.heading {
+text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#contacts-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contacts {
+    padding: 2em;
+    border: 5px solid moccasin;
+}
